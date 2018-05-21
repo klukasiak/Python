@@ -24,18 +24,6 @@ class Pomiar:
         self.dana = dana
 
 
-class NieNaturalna(Exception):
-    def __str__(self):
-        return "Liczba nie jest naturalna"
-
-
-class Naturalna:
-    def __init__(self, n):
-        if n < 0 or type(n) != int:
-            raise NieNaturalna()
-        self.n = n
-
-
 # wieksza = Greater(8, 2)
 # wieksza.operation()
 #
@@ -47,15 +35,19 @@ class Naturalna:
 # except PozaZakresem as pz:
 #     print(pz)
 
+podajliczbe = 1
 
-try:
-    n = Naturalna(int(input('Podaj liczbe naturalna: ')))
-except NieNaturalna as nn:
-    print(nn)
+while podajliczbe:
+    try:
+        nstr = input("Podaj liczbe naturalna:")
+        n = int(nstr)
+        podajliczbe = 0
+    except ValueError:
+        print("To nie jest liczba naturalna")
 
 pomiary = open("pomiary.txt", "w+")
 
-for i in range(0, n.n):
+for i in range(0, n):
     try:
         pomiar = Pomiar(int(input("Podaj liczbe: ")))
         pomiary.write(str(pomiar.dana))
@@ -64,4 +56,3 @@ for i in range(0, n.n):
         print(pz)
 
 pomiary.close()
-
