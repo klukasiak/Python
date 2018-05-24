@@ -32,21 +32,25 @@
 
 **Zad1** *Przy użyciu poniższego programu zapisać w pliku binarnym listę liczb 0,1,...,9 w postaci tekstowej:*
 
+```python
 import pickle 
 d = open("danebin", "ub") 
 a = range(0, 10) 
 pickle.dump(a, d) 
 d.close() 
+```
 
 *Obejrzeć zawartość utworzenego pliku przy użyciu Notatnika.* 
 
 **Zad2** *Przy użyciu poniższego programu wyświetlić zawartość pliku:*
 
+```python
 import pickle
 d=open("danebin","rb")
 a=pickle.load(d)
 print(a)
 d.close()
+```
 
 **Zad3** *W programie zapisującym wprowadzić zmianę: ......protocol=1......, wykonać i ponownie obejrzeć zawartość utworzonego pliku przy użyciu Notatnika.*
 
