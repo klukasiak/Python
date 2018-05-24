@@ -59,3 +59,17 @@ d.close()
 **Zad5** *Przy użyciu programu z punktu 3 utworzyć dwa pliki binarne zawierające dowolne zbiory liczb. Napisać program, który utworzy trzeci plik binarny zawierająccy sumę zawartości dwóch pierwszych plików.*
 
 **Zad6** *Sprawdzić że metody pickle.dump() i pickle.load() działają dobrze również w przypadku bardziej złożonych obieków np. lista list* **Serializacja/deserializacja**
+
+## Lab 04.py
+
+### Programowanie obiektowe w pythonie
+
+**Zad1** *Wykonać wszystkie ćwiczenia zalecone w instrukcji laboratoryjnej.*
+
+**Zad2** *Zdefiniować klasę Pair posiadającą dwa pola będące liczbami całkowitymi, metodę check() wyświetlającą komunikat "Liczby są równe" lub "Liczby są różne". W głownej części programu zainicjować kilka przykładowych obiektów i wypróbować działanie.*
+
+**Zad3** *Zdefiniować klasę Triple dziedziczącą po Pair, zawierającą jedno więcej pole i odpowiednio redefiniującą metodę check(). Wypróbować jak wyżej.*
+
+**Zad4** *Zdefiniować hierarchię klas:*
+
+![diagram here](https://image.ibb.co/ictwrT/Przechwytywanie.png "Prosty diagram")
