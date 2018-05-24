@@ -73,3 +73,33 @@ d.close()
 **Zad4** *Zdefiniować hierarchię klas:*
 
 ![diagram here](https://image.ibb.co/ictwrT/Przechwytywanie.png "Prosty diagram")
+
+## Lab 05.py
+
+### Klasy abstrakcyjne i wyjątki
+
+**Zad1** *Wykonać wszystkie ćwiczenia zalecone w instrukcji laboratoryjnej.*
+
+**Zad2** *Zdefiniować klasę abstrakcyjną Pair o dwóch polach liczbowych a,b oraz jednej metodzie abstrakcyjnej operation(self), następnie klasę Creator dziedziczącą po Pair i definiującą operation() jako wyświetlającą max(a,b), a potem utworzyć obiekt klast Creator i wywołać jego metodę.*
+
+**Zad3** *Zdefiniować klasę wyjątku PozaZakresem(Exception) wyświetlającą odpowiedni komunikat oraz klasę Pomiar posiadającą pole liczbowe dana i rzucającą powyższy wyjątek, jeśli dana <-20 lub  dana > 20. W poleceniu try utworzyć kilka obiektów klasy Pomiar i przechwycić ewentualne wyjątki.*
+
+**Zad4** *Rozbudować rozwiązanie zadania 2 tak, aby program pobierał od użytkownika liczbę naturalną n, a następnie pobierał ciąg n danych i dane prawidłowo zapisywał do pliku Pomiary, a dane poza zakresem pomijał, wyświetlając przy tym odpowiedni komunikat.*
+
+**Uwaga:** *Było by dobrze, gdyby program reagował komunikatami również na dane niebędące liczbami.*
+
+## Lab 06.py
+
+### Wyrażenia regularne
+
+**Zad1** *Napisac program, który pobiera od użytkownika linię tekstu (ujętego w znaki "") i wypisuje wszystkie (maksymalne) ciągi cyfr, które są w nim zawarte* 
+
+abf__15__cxd__778__rd__31__zy
+
+**Zad2** *Jak wyżej, zlicza wystąpienia litery "a" w tekście (wyświetla, ile ich jest)*
+
+**Zad3** *Jak wyżej, wypisuje wyrazy (grupy liter ograniczone innymi znakami), które sa conajwyzej trzy literowe.*
+
+**Zad4** *Jak wyżej, wczytuje linię tekstu zwierającą pewną liczbę nazw plików z rozszerzeniami (np. Nazwa1.txt, nazwa5.c, nazwa5.cpp itd.) oddzielonych od siebie spacjami i wypisuje te z nich, które mają rozszerzenie .py Uwaga: Uwaga: nazwa pliku nie może zaczynać się od cyfry, ani zawierać znaku specjalnego*
+
+**Zad5** *Umieścić w pliku tekst wiersza "Kaczka dziwaczka". Napisac program, który na jego pdstawie utrzowy drugi plik, w którym wszystkie grupy liter "kacz" będą zamienione na "pracz" i na odwrót, zaś "Kacz" będzie zamienione na "Pracz" i na odwrót.*
