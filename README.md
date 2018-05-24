@@ -94,7 +94,7 @@ d.close()
 
 **Zad1** *Napisac program, który pobiera od użytkownika linię tekstu (ujętego w znaki "") i wypisuje wszystkie (maksymalne) ciągi cyfr, które są w nim zawarte* 
 
-abf__15__cxd__778__rd__31__zy
+abf __15__ cxd __778__ rd __31__ zy
 
 **Zad2** *Jak wyżej, zlicza wystąpienia litery "a" w tekście (wyświetla, ile ich jest)*
 
